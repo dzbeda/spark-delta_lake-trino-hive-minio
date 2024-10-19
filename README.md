@@ -21,3 +21,8 @@ In this project, you'll find everything required to:
 1. Streamlining Big Data with Spark: Writing and Reading Delta Lake Format on MinIO-S3 Storage - https://medium.com/@dudu.zbeda_13698/streamlining-big-data-with-spark-writing-and-reading-delta-lake-format-on-minio-1700060eaa72
 
 2. Setting Up Trino with Hive to Query Delta Lake Data on MinIO: A Scalable Big Data Solution
+
+## Connect on LinkedIn
+Feel free to connect with me on LinkedIn for more insights on Big Data, DevOps, and cloud-native solutions:
+www.linkedin.com/in/davidzbeda
+
