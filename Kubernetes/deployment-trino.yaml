@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trino-coordinator
+  labels:
+    app: trino-coordinator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: trino-coordinator
+  template:
+    metadata:
+      labels:
+        app: trino-coordinator
+    spec:
+      containers:
+      - name: trino-coordinator
+        image: trinodb/trino:400
+        ports:
+        - containerPort: 8080
+        volumeMounts:
+        - name: catalog-configs
+          mountPath: /etc/trino/catalog
+          readOnly: true
+      volumes:
+      - name: catalog-configs
+        projected:
+          sources:
+          - configMap:
+              name: delta-properties
+              items:
+              - key: delta.properties
+                path: delta.properties
+          - configMap:
+              name: hive-properties
+              items:
+              - key: Hive.properties
+                path: Hive.properties
