@@ -22,6 +22,17 @@ In this project, you'll find everything required to:
 
 2. Setting Up Trino with Hive to Query Delta Lake Data on MinIO: A Scalable Big Data Solution
 
+
+## Repository files
+
+In this project, you'll find everything required to:
+- write-delta-to-minio.py - using this script you can generate none-partitioned data-lake records on MINIO-S3
+- write-delta-partitioned-to-minio.py - using this script you can generate partitioned data-lake records on MINIO-S3
+- read-delta-from-minio.py - using this script you can read partitioned and none-partitioned data-lake records from MINIO-S3
+- docker-compose folder - In this folder, you will find the `docker-compose` file that is required to run Trino, Hive, and Postgres. The folder includes all necessary configurations files to get the services running smoothly. 
+- Kubernetes folder - In this folder, you will find all Kubernetes manifests that are required to run the solution on the Kubernetes cluster 
+
+
 ## Connect on LinkedIn
 Feel free to connect with me on LinkedIn for more insights on Big Data, DevOps, and cloud-native solutions:
 www.linkedin.com/in/davidzbeda
