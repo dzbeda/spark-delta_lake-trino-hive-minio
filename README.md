@@ -33,7 +33,11 @@ In this project, you'll find everything required to:
 - Kubernetes folder - In this folder, you will find all Kubernetes manifests that are required to run the solution on the Kubernetes cluster 
 
 
-## Connect on LinkedIn
-Feel free to connect with me on LinkedIn for more insights on Big Data, DevOps, and cloud-native solutions:
+## Connect on LinkedIn and on Medium
+Feel free to connect with me on LinkedIn or Medium for more insights on Big Data, DevOps, and cloud-native solutions:
 www.linkedin.com/in/davidzbeda
+
+https://medium.com/@dudu.zbeda_13698
+
+***David Zbeda***
 
