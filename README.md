@@ -1,3 +1,4 @@
+<img src="./welcome.png" alt="welcome Image" width="500" height="300">
 # Spark, Delta Lake, Trino, Hive, and MinIO Project
 
 This repository contains all the project files needed to set up and run a scalable big data solution using Spark, Delta Lake, Trino, Hive, and MinIO. The setup includes Docker Compose files, configuration files for Trino and Hive, as well as scripts to help you deploy and manage the services efficiently.
